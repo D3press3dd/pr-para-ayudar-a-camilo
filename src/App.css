@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  body {
+    background-color: #fff;
+    color: #fff;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+    header {
+    background-color: #000;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
   }
-}
+  /*Responsive hasta 800px*/
+  @media screen and (max-width: 800px) {
+    header {
+      height: 220px;
+    }
+    .footer-contenedor {
+      flex-direction: column;
+      height: 1500px;
+      justify-content: space-evenly;
+    }
+    /* formulario separado Responsive */
+    .formulario {
+      text-align: center;
+    }
+    .formInner {
+      flex-direction: column;
+      height: 640px;
+      width: 360px;
+      align-content: center;
+    }
+    .form-contenedor,
+    .form-content2 {
+      align-content: center;
+      width: 100%;
+      height: 350px;
+      margin-left: 20%;
+    }
+    .form-content2{
+      margin-top: -80px;
+    }
+  
+    .form-content2 input,
+    select,
+    .form-contenedor input {
+      font-size: 30px;
+      width: 90%;
+      height: 50px;
+    }
+    .button{
+      text-align: center;
+      height: 80px;
+    }
+    button{
+      width: 100px;
+      
+    }
+    /* Frase De envio del form Responsive*/
+    .ContenedorEnvioExitoso{
+      border-radius: 3px;
+      width: 270px;
+      }
+      /* seccion de contacto Responsive*/
+    .contact-container{
+      margin-top: 80px;
+      align-self: center;
+      width: 80%;
+      height: 210px;
+    }
+    .contact-container p {
+      font-size: 27px;
+      padding-left: none;
+    }
+    .ContactSvg {
+      width: 45px;
+      font-size: 30px;
+    }
+    /* seccion de horarios Responsive */
+    .Horarios-container {
+      height: auto;
+      align-self: center;
+    }
+    
+    .Horarios-container p {
+      font-size: 27px;  
+    }
+  }
+  @media screen and (min-width: 801px) and (max-width: 1180px) {
+    header {
+      height: 250px;
+    }
+    .footer-contenedor {
+      height: 1000px;
+    }
+    /* Formulario separado Responsive.*/
+    .formInner {
+      width: 100%;
+      justify-content: center;
+    }
+    .form-contenedor,
+    .form-content2 {
+      width: 400px;
+    }
+    .form-contenedor input,
+    .form-content2  input , select
+    {
+      font-size: 40px;
+    }
+    .form-contenedor label ,
+    .form-content2 label
+    {
+      font-size: 45px;
+    }
+    /* Boton Form Responsive*/
+  
+    .button {
+      position: relative;
+      left: -120px;
+      height: 100px;
+      width: 220px;
+    }
+    .button button{
+      font-size: 45px;
+      width: 200px;
+      height: 60px;
+    }
+    /* Frase De envio del form*/
+  .ContenedorEnvioExitoso{
+   position: relative;
+   left: -50px;
+   top: -30px;
+  height: 100px;
+  width: 350px;
+    }
+    .envioExitoso{
+      font-size: 35px;
+      height: 100px;
+      width: 350px;
+    }
+    /* seccion de contacto Responsive*/
+    .contact-container ,  
+    .Horarios-container {
+      position: relative;
+      top: 140px;
+    }
+    .contact-container{
+      width: 360px;
+    }
+    .contact-container p {
+      font-size: 35px;
+      padding-left: 60px;
+    }
+    .ContactSvg {
+      font-size: 40px;
+    }
+  /* seccion de horarios Responsive */
+    .Horarios-container p {
+      font-size: 35px;
+    }
+  }
+  
