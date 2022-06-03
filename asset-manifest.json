@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/primera-pagina-web-react/static/css/main.10af56ef.css",
+    "main.js": "/primera-pagina-web-react/static/js/main.f1897d93.js",
+    "static/js/787.afa11710.chunk.js": "/primera-pagina-web-react/static/js/787.afa11710.chunk.js",
+    "static/media/SLIDER.png": "/primera-pagina-web-react/static/media/SLIDER.965fbee902693e9c8844.png",
+    "static/media/BANNER_Sillon.png": "/primera-pagina-web-react/static/media/BANNER_Sillon.364d5d643209f0da8b66.png",
+    "index.html": "/primera-pagina-web-react/index.html",
+    "main.10af56ef.css.map": "/primera-pagina-web-react/static/css/main.10af56ef.css.map",
+    "main.f1897d93.js.map": "/primera-pagina-web-react/static/js/main.f1897d93.js.map",
+    "787.afa11710.chunk.js.map": "/primera-pagina-web-react/static/js/787.afa11710.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10af56ef.css",
+    "static/js/main.f1897d93.js"
+  ]
+}
