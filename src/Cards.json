@@ -1,11 +1,16 @@
 [
   {
-    "Imagenes": "../../../public/imagenes/IMG_Cómoda.png"
+    "imagenes": "imagenes/IMG_Cómoda.png"
   },
   {
-    "Imagenes": "../../../public/imagenes/IMG_MesaRatona.png"
+    "imagenes": "imagenes/IMG_MesaRatona.png"
   },
   {
-    "Imagenes": "../../../public/imagenes/IMG_Sillon.png"
+    "imagenes": "imagenes/IMG_Sillon.png"
   }
 ]
+
+
+
+
+

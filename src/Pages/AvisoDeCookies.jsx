@@ -1,13 +1,13 @@
-import React from 'react'
-import PoliticasDeCookies from "../components/PoliticasDeCookies"
-import "../components/PoliticasDeCookies/PoliticasDeCookies.css"
+import React from 'react';
+import { PoliticasDeCookies } from '../components';
+import '../components/PoliticasDeCookies/PoliticasDeCookies.css';
 
-const AvisoDeCookies = props => {
+const AvisoDeCookies = (props) => {
   return (
     <div>
-    <PoliticasDeCookies/>
+      <PoliticasDeCookies />
     </div>
-  )
-}
+  );
+};
 
-export default AvisoDeCookies
+export default AvisoDeCookies;

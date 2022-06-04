@@ -5,7 +5,7 @@ const Footer = () => {
   const [Frase,SetFrase]= useState(false)
   const Noenvio = (e)=>{ // con esto no enviamos el formulario.
     e.preventDefault();
-    const form = document.getElementById("contacto");
+    const form = document.getElementById('contacto');
     form.reset(); 
     SetFrase(true);
   }

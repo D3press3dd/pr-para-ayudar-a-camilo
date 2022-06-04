@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const PoliticasDeCookies = props => {
  const Regresar = useNavigate()
   const VolverAInicio = () =>{
-    Regresar("/") 
+    Regresar('/') 
   }
   return (
 <main className="arreglo-doc">
